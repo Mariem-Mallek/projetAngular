@@ -1,0 +1,6 @@
+<h2>Page Parent</h2>
+<ul>
+  <li *ngFor="let msg of messagesFromChild">{{ msg }}</li>
+</ul>
+<input [(ngModel)]="messageToChild" placeholder="Message pour le fils">
+<button (click)="sendMessage()">Envoyer au fils</button>

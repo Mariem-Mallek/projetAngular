@@ -8,6 +8,8 @@ import { Component , OnInit } from '@angular/core';
 })
 
 export class TestComponent implements OnInit {
+  titleClass='red-title';
+
   cunstructor(){}
  ngOnInit(): void {
     console.log('TestComponent initialisé');
